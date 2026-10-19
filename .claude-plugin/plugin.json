@@ -1,5 +1,6 @@
 {
   "name": "commander",
   "version": "0.1.0",
+  "types": "./types/index.d.ts",
   "description": "Claude Code 当技术主管、Codex 等 AI 当工人的调度模式：派发脚本、审查子 Agent、任务面板"
 }
