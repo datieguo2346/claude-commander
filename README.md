@@ -20,7 +20,7 @@ Claude Code 插件：让 Claude Code 当技术主管（规划、拆解、派发�
 在终端会话的提示符中：
 
 ```
-/plugin install commander --marketplace <owner>/claude-commander
+/plugin install commander --marketplace datieguo2346/claude-commander
 ```
 
 依次回答 `y`（添加 marketplace），再选择安装范围（推荐 user）。
@@ -28,10 +28,10 @@ Claude Code 插件：让 Claude Code 当技术主管（规划、拆解、派发�
 从 shell：
 
 ```bash
-claude plugin install commander --marketplace <owner>/claude-commander
+claude plugin install commander --marketplace datieguo2346/claude-commander
 ```
 
-在桌面 app 中（不支持 `/plugin`）：点提示框旁的 +，选 Plugins → Add marketplace，填 `<owner>/claude-commander`，再 Add plugin。
+在桌面 app 中（不支持 `/plugin`）：点提示框旁的 +，选 Plugins → Add marketplace，填 `datieguo2346/claude-commander`，再 Add plugin。
 
 私有仓库只有能在 GitHub 上读取它、且本机已配置 github.com 的 git 凭据（SSH key，或 `gh auth login` 后 `gh auth setup-git`）的人才能安装。
 
